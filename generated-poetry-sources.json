@@ -1,0 +1,14 @@
+{
+    "name": "poetry-deps",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} watchdog"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/dd/3d/b19ab5850a2c35d11cda16d132842314ae15f9bda5fafb93407ea396f74b/watchdog-4.0.0-py3-none-manylinux2014_aarch64.whl",
+            "sha256": "8fec441f5adcf81dd240a5fe78e3d83767999771630b5ddfc5867827a34fa3d3"
+        }
+    ]
+}
